@@ -1,4 +1,7 @@
-﻿Shader "xShader/Shader0" {
+﻿//To use this shader, create a Material in Unity and assign the shader with it. 
+//Give the model the created Material, and it's done.
+
+Shader "xShader/Shader0" {
 	SubShader {
 		Tags { "RenderType"="Opaque" }
 		
