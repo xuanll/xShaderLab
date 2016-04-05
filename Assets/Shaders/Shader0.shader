@@ -1,5 +1,5 @@
 ﻿//To use this shader, create a Material in Unity and assign the shader with it. 
-//Give the model the created Material, and it's done.
+//Give the model the created Material and it's done!
 
 Shader "xShader/Shader0" {
 	SubShader {
@@ -36,5 +36,7 @@ Shader "xShader/Shader0" {
 		}
 
 	} 
+	
+	//when the upside shader cannot use in current platform use "Diffuse"
 	FallBack "Diffuse"
 }
